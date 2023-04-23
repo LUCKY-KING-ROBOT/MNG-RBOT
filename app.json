@@ -45,17 +45,17 @@
       "OWNER_ID": {
          "description": "ʏᴏᴜʀ ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
          "required": true,
-         "value": "5938660179"
+         "value": "6136633222"
       },
       "DEV_USERS": {
          "description": "ᴅᴇᴠs ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
          "required": true,
-         "value": "5938660179"
+         "value": "6136633222"
       },
       "OWNER_USERNAME": {
          "description": "ʏᴏᴜʀ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ",
          "required": true,
-         "value": "Abishnoi1M"
+         "value": "NEW_LOGS_143"
       },
       "EVENT_LOGS": {
          "description": "ᴇᴠᴇɴᴛ ʟᴏɢs ᴄʜᴀɴɴᴇʟ  ᴛᴏ ɴᴏᴛᴇ ᴅᴏᴡɴ ɪᴍᴘᴏʀᴛᴀɴᴛ ʙᴏᴛ ʟᴇᴠᴇʟ ᴇᴠᴇɴᴛs, ᴇx: '-10023456'",
