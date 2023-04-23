@@ -8,7 +8,7 @@ from Exon.modules.helper_funcs import get_readable_time
 from Exon.modules.sql.mongo.afk_db import add_afk, is_afk, remove_afk
 
 
-# bug :- bye with bot username afk back in 2 sec.
+# bug :- /bye  with bot username afk back in 2 sec.
 @app.on_message(filters.command(["bye"]))
 async def active_afk(_, message: Message):
     if message.sender_chat:
@@ -157,9 +157,9 @@ async def active_afk(_, message: Message):
 
     await add_afk(user_id, details)
     await message.reply_sticker(
-        "CAACAgUAAx0CUgguZAABAdegY2N5paaiPapUxRm0RYy9Xf6dPEYAAisIAAJ2PRlXxkn7UgOIdewqBA"
+        "CAACAgQAAx0CaLVcIQABAjNrZEVqiaQYqPqQv2dZbNXLF3ANxsUAAtwLAAIl6dhTd1efvXbqTMYvBA"
     )
-    await message.reply_text(f"{message.from_user.first_name} ɪs ɴᴏᴡ ᴀғᴋ!")
+    await message.reply_text(f"{message.from_user.first_name} ɪs ɴᴏᴡ @DXinfo143 bye!")
 
 
 __mod_name__ = "bye"
