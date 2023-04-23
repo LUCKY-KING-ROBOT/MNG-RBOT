@@ -8,7 +8,7 @@ from telethon import __version__ as s
 
 from Exon import app as pbot
 
-ABISHNOIX = "https://telegra.ph/file/d67cd562f2905d02c20ba.jpg"
+ABISHNOIX = "https://telegra.ph/file/82ac6ab342d2bebebaeca.jpg"
 
 
 @pbot.on_message(filters.command(["repo", "source"]))
@@ -28,10 +28,10 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🤣•ᴍᴜꜱɪᴄ•🤣", url="https://t.me/DX_info"
+                        "『🚀 ɢʀᴏᴜᴩ 🚀』", url="https://t.me/DX_info143"
                     ),
                     InlineKeyboardButton(
-                        "😜•owner•😜", url="https://t.me/DX_LUCKY_143"
+                        "『💥 ᴏᴡɴᴇʀ 💥』", url="https://t.me/DX_LUCKY_143"
                     ),
                 ]
             ]
