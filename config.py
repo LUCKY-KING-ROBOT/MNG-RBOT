@@ -18,13 +18,13 @@ class Config(object):
     API_ID = int(getenv("API_ID"))
     API_HASH = getenv("API_HASH")
     TOKEN = getenv("TOKEN", None)  # ɢᴇᴛ ᴏɴᴇ ғʀᴏᴍ @BotFather [ᴅᴏɴ'ᴛ ᴀᴅᴅ ʜᴇᴀʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ]
-    OWNER_ID = int(getenv("OWNER_ID", "5938660179"))  # sᴛᴀʀᴛ @Exon_Robot ᴛʏᴘᴇ /id
-    OWNER_USERNAME = getenv("OWNER_USERNAME", None)  # ʏᴏᴜʀᴇ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @
+    OWNER_ID = int(getenv("OWNER_ID", "6136633222"))  # sᴛᴀʀᴛ @Exon_Robot ᴛʏᴘᴇ /id
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "@DX_LUCKY_143")  # ʏᴏᴜʀᴇ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @
     SUPPORT_CHAT = getenv(
-        "SUPPORT_CHAT", "AbishnoiMF"
+        "SUPPORT_CHAT", "DX_info"
     )  # sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @
     EVENT_LOGS = int(
-        getenv("EVENT_LOGS", "-1001573019550")
+        getenv("EVENT_LOGS", "-1001989708830")
     )  # ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ ᴡɪᴛɢ (-)
     MONGO_DB_URI = getenv(
         "MONGO_DB_URI", ""
