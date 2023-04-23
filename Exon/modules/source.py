@@ -17,7 +17,7 @@ async def repo(_, message):
         photo=ABISHNOIX,
         caption=f"""✨ **ʜᴇʏ {message.from_user.mention},**
 
-**ʀᴇᴘᴏ ᴏᴡɴᴇʀ  : [𝐀ʙɪꜱʜɴᴏɪ](https://t.me/Abishnoi1M)**
+**ʀᴇᴘᴏ ᴏᴡɴᴇʀ  : [🌟 ᴍy ɪɴꜰᴏ 🌟](https://t.me/DX_info)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀꜱɪᴏɴ :** `{o}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{s}`
@@ -28,10 +28,10 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "•ᴍᴜꜱɪᴄ•", url="https://github.com/Abishnoi69/AsuXMusic"
+                        "🤣•ᴍᴜꜱɪᴄ•🤣", url="https://t.me/DX_info"
                     ),
                     InlineKeyboardButton(
-                        "•ʀᴏʙᴏᴛ•", url="https://github.com/Abishnoi69/ExonRobot"
+                        "😜•owner•😜", url="https://t.me/DX_LUCKY_143"
                     ),
                 ]
             ]
