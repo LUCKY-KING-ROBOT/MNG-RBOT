@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-START_IMG = "https://telegra.ph/file/b5743eea4bd820cce1b9c.jpg"
+START_IMG = "https://te.legra.ph/file/5e9efa86dec2dcafe2d53.png"
 PM_START_TEX = """
 ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
 """
@@ -231,7 +231,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await asyncio.sleep(0.4)
             await lol.delete()
             await update.effective_message.reply_sticker(
-                "CAACAgUAAx0CUgguZAABARdrYwt_f9vFYZop5n-EGGa80vLar9AAAjsIAAKagolX-O0V64tvzK8pBA"
+                "CAACAgEAAx0CdpiMHgACCSNkRS48frpmEzHcmdOTI9EdLUGQcgACTQMAAtk3qUW_qX1CCQNpdi8E"
             )
             await update.effective_message.reply_photo(
                 START_IMG,
@@ -253,17 +253,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ꜱᴜᴘᴘᴏʀᴛ",
+                            text="⚡ꜱᴜᴘᴘᴏʀᴛ⚡",
                             url=f"https://t.me/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇꜱ",
-                            url=f"https://t.me/AbishnoiMF",
+                            text="🚀ᴜᴘᴅᴀᴛᴇꜱ🚀",
+                            url=f"https://t.me/DX_info",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇʀ",
+                            text="[🚬 ᴏᴡɴᴇʀ 🚬]",
                             url=f"tg://user?id={OWNER_ID}",
                         ),
                         InlineKeyboardButton(
@@ -672,7 +672,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        "sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇs ɪғ sʜᴏᴡ ᴀɴʏ ᴇʀʀᴏʀ ʀᴇᴘᴏʀᴛ ᴀᴛ - @AbishnoiMF :"
+        "sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇs ɪғ sʜᴏᴡ ᴀɴʏ ᴇʀʀᴏʀ ʀᴇᴘᴏʀᴛ ᴀᴛ - @DX_info @DX_LUCKY_143 :"
     )
     app.start()
     telethn.start(bot_token=TOKEN)
