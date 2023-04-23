@@ -224,7 +224,7 @@ async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
             head += "\n\nᴛʜᴇ ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪs ᴘᴇʀsᴏɴ ɪs 'ᴅʀᴀɢᴏɴ."
             disaster_level_present = True
         if disaster_level_present:
-            head += ' [<a href="https://t.me/Abishnoi_bots/54">?</a>]'.format(
+            head += ' [<a href="https://t.me/DX_LUCKY_143/54">⚡DX-LUCKY⚡</a>]'.format(
                 bot.username,
             )
 
