@@ -8,7 +8,7 @@ from Exon.modules.helper_funcs import get_readable_time
 from Exon.modules.sql.mongo.afk_db import add_afk, is_afk, remove_afk
 
 
-# bug :- /bye with bot username afk back in 2 sec.
+# bug :- bye with bot username afk back in 2 sec.
 @app.on_message(filters.command(["bye"]))
 async def active_afk(_, message: Message):
     if message.sender_chat:
